@@ -57,7 +57,7 @@
             <p class="text-white">All the images come with a single root partition, and use UFS/FFS filesystem.</p>
             <p class="text-white">In order to be consistent with Cloud-Init, sudo is enabled by default. On OpenBSD,
               doas is still available and just need to be configured.</p>
-            <p class="text-muted">Cloud-Init does not officially support NetBSD and OpenBSD yet, see: <a
+            <p class="text-muted">This images use Cloud-Init master, which supports NetBSD and OpenBSD, see: <a
                 href="https://github.com/canonical/cloud-init/pull/62">#62</a>, <a
                 href="https://github.com/canonical/cloud-init/pull/147">#147</a>.</p>
             <p class="text-muted">The scripts used to build the images are listed below:</p>
@@ -94,8 +94,8 @@
     <section class="jumbotron text-center">
       <div class="container">
         <h1>A collection of prebuilt BSD cloud images</h1>
-        <p class="lead text-muted">These unofficial images are tested on OpenStack. However since, they integrate
-          Cloud-init, and so, should support all the main Cloud providers.</p>
+	<p class="lead text-muted">These unofficial images are tested on OpenStack and NoCloud (<a href="https://virt-lightning.org">with Virt-Lightning</a>). Since, they integrate
+          Cloud-init, should support all the main Cloud providers.</p>
       </div>
     </section>
 
@@ -124,7 +124,8 @@
               <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a cLass="btn btn-primary" role="button" href="/images/netbsd/8.1/netbsd-8.1.qcow2">8.1</a>
+                    <a cLass="btn btn-secondary" role="button" href="/images/netbsd/8.1/netbsd-8.1.qcow2">8.1</a>
+                    <a cLass="btn btn-primary" role="button" href="/images/netbsd/9.0/netbsd-9.0.qcow2">9.0</a>
                   </div>
                 </div>
               </div>
@@ -137,7 +138,7 @@
               <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a cLass="btn btn-primary" role="button" href="/images/netbsd/6.6/openbsd-6.6.qcow2">6.6</a>
+                    <a cLass="btn btn-primary" role="button" href="/images/openbsd/6.6/openbsd-6.6.qcow2">6.6</a>
                   </div>
                 </div>
               </div>
@@ -148,12 +149,6 @@
       </div>
 
   </main>
-
-  <footer class="text-muted">
-    <div class="container">
-      <small>Based on Album example is &copy; Bootstrap</small>
-    </div>
-  </footer>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
