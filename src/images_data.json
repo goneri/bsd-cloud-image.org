@@ -1,0 +1,110 @@
+[
+  {
+    "name": "freebsd",
+    "versions": [
+      {
+        "name": "13.4",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/13.4/2024-10-28/ufs/freebsd-13.4-ufs-2024-10-28.qcow2"
+          },
+          {
+            "flavor": "ZFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/13.4/2024-10-28/zfs/freebsd-13.4-zfs-2024-10-28.qcow2"
+          }
+        ]
+      },
+      {
+        "name": "14.1",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/14.1/2024-10-28/ufs/freebsd-14.1-ufs-2024-10-28.qcow2"
+          },
+          {
+            "flavor": "ZFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/14.1/2024-10-28/zfs/freebsd-14.1-zfs-2024-10-28.qcow2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "netbsd",
+    "versions": [
+      {
+        "name": "8.2",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/8.2/netbsd-8.2.qcow2"
+          }
+        ]
+      },
+      {
+        "name": "9.4",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/9.4/2024-11-02/ufs/netbsd-9.4-2024-11-02.qcow2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "openbsd",
+    "versions": [
+      {
+        "name": "7.5",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.5_2024-05-13-15-25/openbsd-min.qcow2"
+          }
+        ]
+      },
+      {
+        "name": "7.6",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.6_2024-10-08-22-40/openbsd-min.qcow2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dragonflybsd",
+    "versions": [
+      {
+        "name": "6.2.2",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.2.2/2022-09-06/ufs/dragonflybsd-6.2.2-ufs-2022-09-06.qcow2"
+          },
+          {
+            "flavor": "Hammer2",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.2.2/2022-09-06/hammer2/dragonflybsd-6.2.2-hammer2-2022-09-06.qcow2"
+          }
+        ]
+      },
+      {
+        "name": "6.4.0",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.4.0/2023-04-23/ufs/dragonflybsd-6.4.0-ufs-2023-04-23.qcow2"
+          },
+          {
+            "flavor": "Hammer2",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.4.0/2023-04-23/hammer2/dragonflybsd-6.4.0-hammer2-2023-04-23.qcow2"
+          }
+        ]
+      }
+    ]
+  }
+]
