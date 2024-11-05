@@ -34,20 +34,20 @@
     "name": "netbsd",
     "versions": [
       {
-        "name": "8.2",
-        "images": [
-          {
-            "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/8.2/netbsd-8.2.qcow2"
-          }
-        ]
-      },
-      {
         "name": "9.4",
         "images": [
           {
             "flavor": "UFS",
             "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/9.4/2024-11-02/ufs/netbsd-9.4-2024-11-02.qcow2"
+          }
+        ]
+      },
+      {
+        "name": "10.0",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/10.0/2024-11-05/ufs/netbsd-10.0-2024-11-05.qcow2"
           }
         ]
       }
