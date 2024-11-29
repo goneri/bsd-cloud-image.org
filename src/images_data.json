@@ -70,7 +70,8 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.6_2024-10-08-22-40/openbsd-min.qcow2"
+            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.6_2024-10-08-22-40/openbsd-min.qcow2",
+            "python_interpreter": "/usr/local/bin/python3"
           }
         ]
       }
