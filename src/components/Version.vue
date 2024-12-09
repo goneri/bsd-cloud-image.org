@@ -61,33 +61,36 @@ function getBtnClass(os_name: string, flavor_name: string) {
           role="img"
         />
 
-
-
         <div class="modal-body">
-
-                  <div class="alert alert-light" role="alert">
-          If you use this image with Ansible, you need to set the following extra configuration in your inventory:
-          <code>
-            ansible_python_interpreter={{ images[0].python_interpreter }}
-          </code>
-          See <a href="https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html#using-python-3-on-the-managed-machines-with-commands-and-playbooks" target="_blank">this page</a> for more details.
-        </div>
-
+          <div class="alert alert-light" role="alert">
+            If you use this image with Ansible, you need to set the following
+            extra configuration in your inventory:
+            <code>
+              ansible_python_interpreter={{ images[0].python_interpreter }}
+            </code>
+            See
+            <a
+              href="https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html#using-python-3-on-the-managed-machines-with-commands-and-playbooks"
+              target="_blank"
+              >this page</a
+            >
+            for more details.
+          </div>
         </div>
         <div class="modal-footer">
           <div class="alert alert-info" role="alert">
-          Please select the filesystem of the root partition.
-</div>
-          <div>
-          <Image
-            v-for="image in images"
-            :flavor_name="image.flavor"
-            :url="image.url"
-            :btn_class="getBtnClass(os_name, image.flavor)"
-          />
+            Please select the filesystem of the root partition.
           </div>
+          <div>
+            <Image
+              v-for="image in images"
+              :flavor_name="image.flavor"
+              :url="image.url"
+              :btn_class="getBtnClass(os_name, image.flavor)"
+            />
           </div>
         </div>
+      </div>
     </div>
   </div>
 </template>
