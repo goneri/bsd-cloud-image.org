@@ -15,12 +15,16 @@ function prettifyName(os_name: string) {
   }
 }
 
-defineProps<{ os_name: string; versions: VersionDefType[] }>();
-
 function getBtnClass(index: number, len: number) {
   console.log(`index: ${index}, len: ${len}`);
   return index + 1 === len ? "btn btn-primary" : "btn btn-secondary";
 }
+
+function getVisibleVersions(versions: VersionDefType[]) {
+  return versions.filter((version) => !version.hidden);
+}
+
+defineProps<{ os_name: string; versions: VersionDefType[] }>();
 </script>
 
 <template>
@@ -38,11 +42,11 @@ function getBtnClass(index: number, len: number) {
       />
 
       <Version
-        v-for="(version, index) in versions"
+        v-for="(version, index) in getVisibleVersions(versions)"
         :os_name
         :version_name="version.name"
         :images="version.images"
-        :btn_class="getBtnClass(index, versions.length)"
+        :btn_class="getBtnClass(index, getVisibleVersions(versions).length)"
       />
     </div>
   </div>

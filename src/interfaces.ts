@@ -7,6 +7,7 @@ export interface ImagesDefType {
 export interface VersionDefType {
   name: string;
   images: ImagesDefType[];
+  hidden?: boolean;
 }
 
 //@ts-ignore
