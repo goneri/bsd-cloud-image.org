@@ -1,6 +1,7 @@
 export interface ImagesDefType {
   flavor: string;
   url: string;
+  python_interpreter: string;
 }
 
 export interface VersionDefType {
