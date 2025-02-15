@@ -72,6 +72,16 @@
             "python_interpreter": "/usr/pkg/bin/python3.12"
           }
         ]
+      },
+      {
+        "name": "10.1",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/10.1/2025-02-15/ufs/netbsd-10.1-2025-02-15.qcow2",
+            "python_interpreter": "/usr/pkg/bin/python3.13"
+          }
+        ]
       }
     ]
   },
