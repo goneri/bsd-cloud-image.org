@@ -58,6 +58,7 @@
     "versions": [
       {
         "name": "7.5",
+        "hidden": true,
         "images": [
           {
             "flavor": "UFS",
@@ -73,7 +74,18 @@
             "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.6_2024-10-08-22-40/openbsd-min.qcow2"
           }
         ]
+      },
+      {
+        "name": "7.7",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.7_2025-04-28-11-38/openbsd-min.qcow2",
+            "python_interpreter": "/usr/local/bin/python3"
+          }
+        ]
       }
+
     ]
   },
   {
