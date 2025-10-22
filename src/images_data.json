@@ -119,6 +119,16 @@
             "python_interpreter": "/usr/local/bin/python3"
           }
         ]
+      },
+      {
+        "name": "7.8",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.8_2025-10-22-09-25/openbsd-min.qcow2",
+            "python_interpreter": "/usr/local/bin/python3"
+          }
+        ]
       }
 
     ]
