@@ -11,15 +11,15 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
-    "vue": "^3.5.12"
+    "bootstrap": "^5.3.8",
+    "vue": "^3.5.26"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.1.4",
-    "prettier": "3.3.3",
-    "sass": "^1.80.5",
-    "typescript": "~5.6.2",
-    "vite": "^5.4.10",
-    "vue-tsc": "^2.1.8"
+    "@vitejs/plugin-vue": "^6.0.3",
+    "prettier": "3.7.4",
+    "sass": "^1.97.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1",
+    "vue-tsc": "^3.2.2"
   }
 }
