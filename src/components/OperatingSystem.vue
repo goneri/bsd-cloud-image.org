@@ -41,6 +41,11 @@ defineProps<{ os_name: string; versions: VersionDefType[] }>();
         aria-label="Placeholder: Thumbnail"
       />
 
+      <div v-if="os_name === 'freebsd'" class="alert alert-info mt-3" role="alert">
+        Since FreeBSD 14.3 and 15.0, the upstream project provides
+        <a href="https://www.freebsd.org/releases/" class="alert-link">official Cloud images</a>.
+      </div>
+
       <Version
         v-for="(version, index) in getVisibleVersions(versions)"
         :os_name
