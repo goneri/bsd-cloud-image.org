@@ -90,27 +90,6 @@
     "name": "openbsd",
     "versions": [
       {
-        "name": "7.5",
-        "hidden": true,
-        "images": [
-          {
-            "flavor": "UFS",
-            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.5_2024-05-13-15-25/openbsd-min.qcow2",
-            "python_interpreter": "/usr/local/bin/python3"
-          }
-        ]
-      },
-      {
-        "name": "7.6",
-        "images": [
-          {
-            "flavor": "UFS",
-            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.6_2024-10-08-22-40/openbsd-min.qcow2",
-            "python_interpreter": "/usr/local/bin/python3"
-          }
-        ]
-      },
-      {
         "name": "7.7",
         "images": [
           {
@@ -126,6 +105,16 @@
           {
             "flavor": "UFS",
             "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.8_2025-10-22-09-25/openbsd-min.qcow2",
+            "python_interpreter": "/usr/local/bin/python3"
+          }
+        ]
+      },
+      {
+        "name": "7.9",
+        "images": [
+          {
+            "flavor": "UFS",
+            "url": "https://github.com/hcartiaux/openbsd-cloud-image/releases/download/v7.9_2026-08-31-22-45/openbsd-min.qcow2",
             "python_interpreter": "/usr/local/bin/python3"
           }
         ]
