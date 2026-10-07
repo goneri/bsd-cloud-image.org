@@ -7,12 +7,12 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/13.4/2024-10-28/ufs/freebsd-13.4-ufs-2024-10-28.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/freebsd/13.4/2024-10-28/ufs/freebsd-13.4-ufs-2024-10-28.qcow2",
             "python_interpreter": "/usr/local/bin/python3"
           },
           {
             "flavor": "ZFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/13.4/2024-10-28/zfs/freebsd-13.4-zfs-2024-10-28.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/freebsd/13.4/2024-10-28/zfs/freebsd-13.4-zfs-2024-10-28.qcow2",
             "python_interpreter": "/usr/local/bin/python3"
           }
         ]
@@ -23,12 +23,12 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/14.1/2024-10-28/ufs/freebsd-14.1-ufs-2024-10-28.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/freebsd/14.1/2024-10-28/ufs/freebsd-14.1-ufs-2024-10-28.qcow2",
             "python_interpreter": "/usr/local/bin/python3"
           },
           {
             "flavor": "ZFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/14.1/2024-10-28/zfs/freebsd-14.1-zfs-2024-10-28.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/freebsd/14.1/2024-10-28/zfs/freebsd-14.1-zfs-2024-10-28.qcow2",
             "python_interpreter": "/usr/local/bin/python3"
           }
         ]
@@ -38,12 +38,12 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/14.2/2024-12-08/ufs/freebsd-14.2-ufs-2024-12-08.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/freebsd/14.2/2024-12-08/ufs/freebsd-14.2-ufs-2024-12-08.qcow2",
             "python_interpreter": "/usr/local/bin/python3"
           },
           {
             "flavor": "ZFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/freebsd/14.2/2024-12-08/zfs/freebsd-14.2-zfs-2024-12-08.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/freebsd/14.2/2024-12-08/zfs/freebsd-14.2-zfs-2024-12-08.qcow2",
             "python_interpreter": "/usr/local/bin/python3"
           }
         ]
@@ -58,7 +58,7 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/9.4/2024-11-02/ufs/netbsd-9.4-2024-11-02.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/netbsd/9.4/2024-11-02/ufs/netbsd-9.4-2024-11-02.qcow2",
             "python_interpreter": "/usr/pkg/bin/python3.12"
           }
         ]
@@ -69,7 +69,7 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/10.0/2024-11-05/ufs/netbsd-10.0-2024-11-05.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/netbsd/10.0/2024-11-05/ufs/netbsd-10.0-2024-11-05.qcow2",
             "python_interpreter": "/usr/pkg/bin/python3.12"
           }
         ]
@@ -79,7 +79,7 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/netbsd/10.1/2025-02-15/ufs/netbsd-10.1-2025-02-15.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/netbsd/10.1/2025-02-15/ufs/netbsd-10.1-2025-02-15.qcow2",
             "python_interpreter": "/usr/pkg/bin/python3.13"
           }
         ]
@@ -130,12 +130,12 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.2.2/2022-09-06/ufs/dragonflybsd-6.2.2-ufs-2022-09-06.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/dragonflybsd/6.2.2/2022-09-06/ufs/dragonflybsd-6.2.2-ufs-2022-09-06.qcow2",
             "python_interpreter": "/usr/local/bin/python3.8"
           },
           {
             "flavor": "Hammer2",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.2.2/2022-09-06/hammer2/dragonflybsd-6.2.2-hammer2-2022-09-06.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/dragonflybsd/6.2.2/2022-09-06/hammer2/dragonflybsd-6.2.2-hammer2-2022-09-06.qcow2",
             "python_interpreter": "/usr/local/bin/python3.8"
           }
         ]
@@ -145,12 +145,12 @@
         "images": [
           {
             "flavor": "UFS",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.4.0/2023-04-23/ufs/dragonflybsd-6.4.0-ufs-2023-04-23.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/dragonflybsd/6.4.0/2023-04-23/ufs/dragonflybsd-6.4.0-ufs-2023-04-23.qcow2",
             "python_interpreter": "/usr/local/bin/python3.9"
           },
           {
             "flavor": "Hammer2",
-            "url": "https://object-storage.public.mtl1.vexxhost.net/swift/v1/1dbafeefbd4f4c80864414a441e72dd2/bsd-cloud-image.org/images/dragonflybsd/6.4.0/2023-04-23/hammer2/dragonflybsd-6.4.0-hammer2-2023-04-23.qcow2",
+            "url": "https://s3.public.mtl1.vexxhost.net/bsd-cloud-image.org/images/dragonflybsd/6.4.0/2023-04-23/hammer2/dragonflybsd-6.4.0-hammer2-2023-04-23.qcow2",
             "python_interpreter": "/usr/local/bin/python3.9"
           }
         ]
